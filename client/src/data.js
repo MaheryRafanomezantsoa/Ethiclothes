@@ -4,7 +4,7 @@ export const storeProducts = [
   {
     id: 1,
     title: "Chemise bleue",
-    img: "img/chemise/chemise ecolo.jpg",
+    img: "img/chemise/chemise-ecolo.jpg",
     price: 39,
     company: "",
     info:
