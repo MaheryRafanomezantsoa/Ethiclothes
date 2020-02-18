@@ -1,0 +1,121 @@
+:root{
+  --mainGreen:#3E905E;
+  --lightGreen:#80c9aa;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+  --mainBrown:#955628;
+}
+.logo-size{
+  width: 30%;
+  height:30%;
+}
+.logo-footer{
+  width: 30%;
+  height: flex;
+}
+body {
+  font-family: 'Roboto', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color:var(--mainDark) !important;
+  min-height: 100vh;
+}
+.text-title{
+  font-family: 'Courgette', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-green{
+  color: var(--mainGreen);
+}
+.text-brigth{
+  color: var(--lightGreen)
+}
+.btn-black{
+  background: tranparent;
+  text-transform: capitalize;
+  font-size:0.8rem !important;
+  color:var(--mainDark);
+  border-radius:0 !important;
+  border:0.1rem  solid var(--mainDark) !important
+}
+.btn-black:hover{
+  background:var(--mainDark)!important;
+  color:var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor:pointer;
+  font-size: 1.2rem;
+  color:var(--mainYellow)
+}
+.containerSlide {
+  width: 80%;
+  
+  margin: 0 auto;
+ 
+}
+.containerSlide img{
+
+  width: 100%;
+
+  opacity: 0.5;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login, .register{
+  width:500px;
+  margin: auto;
+  padding: 50px;
+}
+ 
+h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.description{
+  margin-top:-40%;
+  margin-left: 20%;
+  margin-bottom: 30%;
+  z-index: 100;
+  position: absolute;
+}
+.description h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.description Button{
+  margin-top: 100px;
+}
+@media screen and (min-width: 600px) and (max-width: 900px){
+  .description{
+    margin-top: -40%;
+  }
+  .description h1{
+    font-size: 2rem;
+  }
+  .description Button{
+    margin-top: 50px;
+  }
+  .description p{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 600px){
+  .description{
+    margin-top: -55%;
+  }
+  .description h1{
+    font-size: 1rem;
+  }
+  .description Button{
+    margin-top: 20px;
+  }
+  .description p{
+    font-size: 0.8rem;
+  }
+  
+}
